@@ -31,8 +31,12 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html" title="Homepage">
-          Christina Watson
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="images/Minimalist Teal CW Monogram Logo.png"
+            class="logo"
+            alt=""
+          />
         </a>
         <button
           class="navbar-toggler"
@@ -47,73 +51,109 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                aria-current="page"
-                title="homepage"
-                href="index.html"
-              >
-                Home
-              </a>
+            <li class="nav-item active">
+              <a class="nav-link" title="Homepage" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a
-                class="nav-link active"
+                class="nav-link"
                 title="About Christina Watson"
                 href="about.html"
-                >About me</a
+                >About Me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                title="My Work - Christina Watson"
+                href="work.html"
+                >My Work</a
               >
             </li>
             <li class="nav-item">
               <a
                 class="nav-link"
                 title="Contact Christina Watson"
-                href="about.html#contact"
-                >Contact me</a
+                href="contact.html"
+                >Contact Me</a
               >
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <h1 class="text-center">About Me</h1>
-    <h3 class="text-center">Front-end developer from Melbourne, Australia.</h3>
-    <div class="about-paragraphs text-center">
-      <p></p>
-    </div>
-
-    <div class="container">
-      <div class="row img-gallery-row">
-        <div class="col-sm-4">
-          <img
-            src="images/weather-app.png"
-            alt="Weather App image"
-            class="img-fluid p-2 shadow rounded img-gallery"
-          />
+    <div class="about-section-container ms-4 mb-5">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="about-section-content">
+            <h1 class="mb-4">Hi I'm Christina Watson</h1>
+            <h2 class="mb-4">Front-end developer from Melbourne, Australia.</h2>
+            <p>
+              With a passion for tailored web apps and accessibility-first
+              designs, I aim to assist progressive businesses stay ahead of the
+              curve in delivering fast, inclusive, and future-ready digital
+              experiences.
+            </p>
+            <p>
+              I enjoy working at the intersection of design and engineering,
+              where great user experience meets robust, clean and scalable code.
+            </p>
+            <p class="mb-5">
+              Outside of work, you can usually find me bickering with my
+              mini-me, my nose in a novel, or redecorating my home for the 10th
+              time this year.
+            </p>
+            <a
+              href="work.html"
+              class="btn btn-branding"
+              title="View my portfolio"
+              target="_blank"
+              >View my portfolio</a
+            >
+          </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-lg-6">
           <img
-            src="images/world-clock-app.png"
-            alt="World Clock App image"
-            class="img-fluid p-2 shadow rounded img-gallery"
-          />
-        </div>
-        <div class="col-sm-4">
-          <img
-            src="images/ai-generator-app.png"
-            alt="AI French Poem Generator image"
-            class="img-fluid p-2 shadow rounded img-gallery"
+            src="images/Pic1.png"
+            alt="Christina Watson Photo"
+            class="img-fluid p-2 shadow rounded photo-me"
           />
         </div>
       </div>
     </div>
     <div id="contact" class="mt-5">
-      <h2 class="text-center">📮 Contact me</h2>
-
-      <a href="mailto:depenhac@gmail.com" class="email-link">
-        <i class="fa-solid fa-envelope"></i> depenhac@gmail.com</a
-      >
+      <h2 class="text-center">Work Enquiry</h2>
+      <p class="text-center">
+        👩‍💻 Feel free to reach out for a collaboration 👨‍💻
+      </p>
+      <div class="contact-container mt-5 p-2">
+        <div class="row">
+          <div class="col-sm-4">
+            <a
+              href="mailto:christinawatson.codes@gmail.com"
+              class="gmail-link"
+              target="_blank"
+            >
+              <i class="fa-solid fa-envelope"></i
+            ></a>
+          </div>
+          <div class="col-sm-4">
+            <a
+              href="https://www.linkedin.com/in/christina-watson-751465386/"
+              class="linkedin-link"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </div>
+          <div class="col-sm-4">
+            <a
+              href="https://www.instagram.com/cw.codes/"
+              class="instagram-link"
+              target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+        </div>
     </div>
   </body>
 </html>
